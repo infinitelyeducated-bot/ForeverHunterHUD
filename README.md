@@ -18,6 +18,10 @@ A hunter HUD for **World of Warcraft: Forever** (Interface 16001). Resource bar,
 2. Put the folder in `World of Warcraft/_forever_/Interface/AddOns/` and make sure it is named exactly `ForeverHunterHUD`.
 3. Restart the game or `/reload`. Type `/fh` to open the menu.
 
+**It only starts on a hunter.** On a character of any other class it stays completely off: nothing
+on screen, no events, nothing saved, and `/fh` just says which class it is for. So you can
+leave every class's HUD enabled and only the right one runs.
+
 Optional companions (the HUD works without them):
 - **ForeverArt** - menu artwork: a painted backdrop, a header picture and a class crest.
 
